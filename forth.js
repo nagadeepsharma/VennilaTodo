@@ -24,7 +24,7 @@ function addItem(){
             li.appendChild(item)
             list.appendChild(li)
             count=count+1
-            todo=document.querySelector('input').value=" "
+            todo=document.querySelector('input').value=null
         }
         
         
